@@ -32,7 +32,95 @@ public class Operadores {
         concatenacao = "1" + (1 + 1 + 1); //ele fara a operacao primeiro e depois vai concatenar
         System.out.println(concatenacao);
 
-        
+        //operadores unarios
+
+        // --, ++, !, +, -
+
+
+        int numero = 5;
+
+        int numero1 = - numero;
+        System.out.println(numero1);
+
+        int numero2 = + numero;
+        System.out.println(numero2);
+
+        //tonar um numero positivo
+
+        numero1 = numero1 * -1;
+
+        System.out.println(numero1);
+
+        //valores de atribuicao
+
+        int exemploAtribuicao = 1;
+        exemploAtribuicao++;
+
+        // é igual exemploAtribuicao = exemploAtribuicao + 1;
+
+        //megar valores boolean
+
+        boolean isBo = true;
+
+        System.out.println(!isBo);
+        System.out.println(isBo);
+
+        //mudando de fato o valor
+
+        isBo = !isBo;
+
+        System.out.println(isBo);
+
+
+
+        //operador tenario
+
+        //ele é representaso pelo ?:
+
+        int a, b;
+
+        a = 5;
+        b = 5;
+
+        //boolean isResultado = false;
+
+        /* 
+
+        if (a == b) {
+            isResultado = true;
+        } else {
+            isResultado = false;
+        }
+
+        */
+
+
+        boolean isResultado = a == b ? true : false;
+        System.out.println(isResultado);
+
+
+        //operadores relacionais
+
+        /*
+         * == - igual a
+         * != - diferente que
+         * 
+         * >= - maior ou igual
+         * <= - menor ou igual
+         * 
+         * > - maior
+         * < - menor
+         */
+
+
+         //Operadores logicos
+
+         /*
+          * && and
+          * || or
+          
+
+          */
 
 
 
